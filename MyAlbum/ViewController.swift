@@ -21,6 +21,7 @@ class ViewController: UIViewController {
             self.randomPrice()
         })
         
+        
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
     }
